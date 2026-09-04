@@ -12,10 +12,19 @@ import traceback
 from datetime import date, datetime, timezone
 from pathlib import Path
 
+from scraper.adapters.goreme_belediyesi import ADAPTER as GOREME_BELEDIYESI_ADAPTER
+from scraper.adapters.kozakli_belediyesi import ADAPTER as KOZAKLI_BELEDIYESI_ADAPTER
 from scraper.adapters.kun_events import ADAPTER as KUN_ADAPTER
+from scraper.adapters.nevu_events import ADAPTER as NEVU_ADAPTER
 from scraper.adapters.urgup_belediyesi import ADAPTER as URGUP_BELEDIYESI_ADAPTER
 
-ADAPTERS = [KUN_ADAPTER, URGUP_BELEDIYESI_ADAPTER]
+ADAPTERS = [
+    KUN_ADAPTER,
+    NEVU_ADAPTER,
+    URGUP_BELEDIYESI_ADAPTER,
+    GOREME_BELEDIYESI_ADAPTER,
+    KOZAKLI_BELEDIYESI_ADAPTER,
+]
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 EVENTS_OUTPUT = REPO_ROOT / "public" / "scraped-events.json"

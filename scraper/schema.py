@@ -13,6 +13,10 @@ TR_MONTHS = {
     "ocak": 1, "şubat": 2, "subat": 2, "mart": 3, "nisan": 4, "mayıs": 5, "mayis": 5,
     "haziran": 6, "temmuz": 7, "ağustos": 8, "agustos": 8, "eylül": 9, "eylul": 9,
     "ekim": 10, "kasım": 11, "kasim": 11, "aralık": 12, "aralik": 12,
+    # Short forms used by some sites (e.g. NEVÜ's "20 May 2026", "Şub", "Eki")
+    "oca": 1, "şub": 2, "sub": 2, "mar": 3, "nis": 4, "may": 5,
+    "haz": 6, "tem": 7, "ağu": 8, "agu": 8, "eyl": 9,
+    "eki": 10, "kas": 11, "ara": 12,
 }
 
 CATEGORY_MAP = {
@@ -57,6 +61,20 @@ def parse_turkish_date(text):
         return None
 
 
+def parse_numeric_date(text):
+    """Parse a numeric date like '08.03.2026' or '29/10/2024' into ISO form."""
+    if not text:
+        return None
+    match = re.search(r"(\d{1,2})[./](\d{1,2})[./](\d{4})", text)
+    if not match:
+        return None
+    day, month, year = match.groups()
+    try:
+        return date(int(year), int(month), int(day)).isoformat()
+    except ValueError:
+        return None
+
+
 def categorize(event_type_text, default_category=None):
     fallback = default_category or DEFAULT_CATEGORY
     if not event_type_text:
@@ -92,11 +110,13 @@ def normalize_event(
     source_name,
     title,
     description,
-    date_text,
     town,
     location_name,
     coordinates,
     source_url,
+    date_text=None,
+    iso_date=None,
+    time="",
     image=None,
     event_type_text=None,
     organizer=None,
@@ -105,11 +125,16 @@ def normalize_event(
     """Build one event object matching the app's schema. Returns None if the
     event can't be dated (we never guess a date for a real event).
 
+    Pass either `date_text` (Turkish-month-name text, e.g. "9 Eylül 2026",
+    parsed via parse_turkish_date) or a pre-parsed `iso_date` (e.g. from
+    parse_numeric_date for "DD.MM.YYYY"/"DD/MM/YYYY" sources) — whichever
+    the adapter's source format needs.
+
     default_category lets an adapter set a source-appropriate fallback
     (e.g. "Belediye Etkinliği" instead of the generic default) for events
     whose type text doesn't match anything in CATEGORY_MAP.
     """
-    iso_date = parse_turkish_date(date_text)
+    iso_date = iso_date or parse_turkish_date(date_text)
     if not iso_date:
         return None
 
@@ -125,7 +150,7 @@ def normalize_event(
         "locationName": location_name,
         "coordinates": coordinates,
         "date": iso_date,
-        "time": "",
+        "time": time or "",
         "price": 0,
         "isFree": True,
         "priceLabel": "Ücretsiz",

@@ -1,5 +1,5 @@
 {
-  "lastRunAt": "2026-09-04T13:55:26.495649+00:00",
+  "lastRunAt": "2026-09-04T14:19:21.506265+00:00",
   "totalEvents": 6,
   "sources": [
     {
@@ -9,10 +9,28 @@
       "itemsCount": 5
     },
     {
+      "id": "src-6",
+      "name": "Nevşehir Hacı Bektaş Veli Üniversitesi (NEVÜ)",
+      "status": "ok",
+      "itemsCount": 0
+    },
+    {
       "id": "src-15",
       "name": "Ürgüp Belediyesi",
       "status": "ok",
       "itemsCount": 1
+    },
+    {
+      "id": "src-16",
+      "name": "Göreme Belediyesi",
+      "status": "ok",
+      "itemsCount": 0
+    },
+    {
+      "id": "src-17",
+      "name": "Kozaklı Belediyesi",
+      "status": "ok",
+      "itemsCount": 0
     }
   ]
 }

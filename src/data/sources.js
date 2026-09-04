@@ -49,14 +49,14 @@ export const DATA_SOURCES = [
   },
   {
     id: "src-4",
-    name: "Göreme, Avanos & Uçhisar Belediyeleri",
+    name: "Avanos & Uçhisar Belediyeleri",
     category: "resmi",
     type: "Yerel Belediye Kültür Portalları",
-    url: "https://goreme.bel.tr",
+    url: "https://www.avanos.bel.tr/etkinlikler",
     status: "Yakında",
     color: "#2ecc71",
     icon: "📢",
-    description: "İlçe festivalleri, çömlek yarışmaları ve açık hava sinemaları."
+    description: "Avanos'un çömlekçilik festivalleri ve Uçhisar'ın yerel etkinlikleri. Avanos'un kendi \"Etkinlikler\" sayfası gerçek ve çalışır durumda ama şu an boş — ilk etkinlik yayınlandığında bağlanacak."
   },
   {
     id: "src-15",
@@ -68,6 +68,105 @@ export const DATA_SOURCES = [
     color: "#c0392b",
     icon: "🍇",
     description: "Ürgüp Belediyesi'nin resmi etkinlik/bilet platformundan bağ bozumu festivali, konserler ve belediye etkinlikleri."
+  },
+  {
+    id: "src-16",
+    name: "Göreme Belediyesi",
+    category: "resmi",
+    type: "Yerel Belediye Etkinlik Portalı",
+    url: "https://www.goreme.bel.tr/tr/tum-etkinlikler",
+    status: "Aktif",
+    color: "#8e44ad",
+    icon: "🎈",
+    description: "Göreme Belediyesi'nin etkinlik takviminden söyleşiler, dinletiler ve yerel buluşmalar."
+  },
+  {
+    id: "src-17",
+    name: "Kozaklı Belediyesi",
+    category: "resmi",
+    type: "Yerel Belediye Etkinlik Portalı",
+    url: "https://www.kozakli.bel.tr/",
+    status: "Aktif",
+    color: "#f39c12",
+    icon: "♨️",
+    description: "Kozaklı Belediyesi'nin etkinlik takviminden yerel kutlamalar ve belediye etkinlikleri."
+  },
+  {
+    id: "src-19",
+    name: "Nevşehir Belediyesi",
+    category: "resmi",
+    type: "İl Merkezi Belediye Haber Portalı",
+    url: "https://www.nevsehir.bel.tr/haber-arsivi",
+    status: "Yakında",
+    color: "#34495e",
+    icon: "🏙️",
+    description: "İl merkezi haberleri; etkinlik tarihleri sadece bazı haber metinlerinde serbest metin olarak geçiyor, güvenilir otomatik çekim için yeterli yapı yok."
+  },
+  {
+    id: "src-20",
+    name: "Derinkuyu Belediyesi",
+    category: "resmi",
+    type: "Yerel Belediye Haber Portalı",
+    url: "https://www.derinkuyu.bel.tr/sayfa/Haberler",
+    status: "Yakında",
+    color: "#7f8c8d",
+    icon: "🕳️",
+    description: "Yer altı şehri ile ünlü ilçe; sitede tarih alanı olan bir etkinlik/haber bölümü bulunmuyor."
+  },
+  {
+    id: "src-21",
+    name: "Gülşehir Belediyesi",
+    category: "resmi",
+    type: "Yerel Belediye Etkinlik Portalı",
+    url: "https://gulsehir.bel.tr/current/events",
+    status: "Yakında",
+    color: "#1abc9c",
+    icon: "🏛️",
+    description: "Etkinlikler bölümü teknik olarak var ama son etkinlik 2025 sonu — güncellendiğinde bağlanacak."
+  },
+  {
+    id: "src-22",
+    name: "Hacıbektaş Belediyesi",
+    category: "resmi",
+    type: "Yerel Belediye Duyuru Portalı",
+    url: "https://www.hacibektas.bel.tr/web/kategori/duyurular/",
+    status: "Yakında",
+    color: "#c0392b",
+    icon: "🕊️",
+    description: "Hacı Bektaş Veli Anma Törenleri'nin duyuruları burada yayınlanıyor, ancak tarihler sadece serbest metinde geçiyor."
+  },
+  {
+    id: "src-23",
+    name: "Uçhisar Belediyesi",
+    category: "resmi",
+    type: "Yerel Belediye Duyuru Portalı",
+    url: "https://www.uchisar.bel.tr/duyurular/feed/",
+    status: "Yakında",
+    color: "#95a5a6",
+    icon: "🏰",
+    description: "Duyurular çoğunlukla idari nitelikte; gerçek etkinlik nadiren geçiyor."
+  },
+  {
+    id: "src-24",
+    name: "Ortahisar Belediyesi",
+    category: "resmi",
+    type: "Yerel Belediye Duyuru Portalı",
+    url: "https://www.ortahisar.bel.tr",
+    status: "Yakında",
+    color: "#d35400",
+    icon: "🏔️",
+    description: "Bahar Şenlikleri gibi gerçek etkinlikler var, ancak site verileri JS paketleri içine gömülü — otomatik çekim daha kırılgan."
+  },
+  {
+    id: "src-25",
+    name: "Mustafapaşa Belediyesi",
+    category: "resmi",
+    type: "Yerel Belediye Duyuru Portalı",
+    url: "https://www.mustafapasa.bel.tr",
+    status: "Yakında",
+    color: "#e67e22",
+    icon: "🏘️",
+    description: "2024'te yeniden belde statüsü kazandı; duyurularda tarih alanı yok, sadece genel haberler."
   },
 
   // 2. Üniversiteler & Akademik
@@ -87,11 +186,11 @@ export const DATA_SOURCES = [
     name: "Nevşehir Hacı Bektaş Veli Üniversitesi (NEVÜ)",
     category: "universite",
     type: "Üniversite Etkinlik Takvimi",
-    url: "https://nevsehir.edu.tr/tr/etkinlikler",
-    status: "Yakında",
+    url: "https://www.nevsehir.edu.tr/tr/ogrenci/etkinlik",
+    status: "Aktif",
     color: "#2980b9",
     icon: "🏫",
-    description: "Kongre merkezi tiyatro oyunları, bahar şenlikleri, halk dansları ve öğrenci kulüp konserleri."
+    description: "Öğrenci etkinlik takviminden konferans, seminer ve kültür günleri. (Sitenin ayrı \"Etkinlikler\" sayfası şu an boş; gerçek veri bu takvimden geliyor.)"
   },
 
   // 3. Biletleme & Gösteri Portalları
