@@ -24,3 +24,27 @@ export const fetchScrapedMeta = async () => {
     return null;
   }
 };
+
+const TURKISH_CHAR_MAP = { ü: 'u', ğ: 'g', ş: 's', ı: 'i', ö: 'o', ç: 'c' };
+
+const normalizeTitle = (title) =>
+  (title || '')
+    .toLowerCase()
+    .replace(/[üğşıöç]/g, (ch) => TURKISH_CHAR_MAP[ch])
+    .replace(/[^a-z0-9\s]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+
+// The same real-world event (e.g. a municipality's festival) often ends up
+// both in the curated seed list and in a scraper's output, each pointing at
+// a different sourceUrl (the org's homepage vs. a ticketing subdomain) — so
+// a plain sourceUrl match can't catch it. Same date + a shared title prefix
+// is a good enough signal without pulling in a fuzzy-matching library.
+export const isSameEvent = (a, b) => {
+  if (a.date !== b.date) return false;
+  if (a.sourceUrl && a.sourceUrl === b.sourceUrl) return true;
+  const prefixLength = 24;
+  const titleA = normalizeTitle(a.title).slice(0, prefixLength);
+  const titleB = normalizeTitle(b.title).slice(0, prefixLength);
+  return titleA.length >= 12 && titleA === titleB;
+};

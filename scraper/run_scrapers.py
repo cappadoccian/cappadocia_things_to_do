@@ -9,12 +9,13 @@ Usage:
 import json
 import sys
 import traceback
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 from pathlib import Path
 
 from scraper.adapters.kun_events import ADAPTER as KUN_ADAPTER
+from scraper.adapters.urgup_belediyesi import ADAPTER as URGUP_BELEDIYESI_ADAPTER
 
-ADAPTERS = [KUN_ADAPTER]
+ADAPTERS = [KUN_ADAPTER, URGUP_BELEDIYESI_ADAPTER]
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 EVENTS_OUTPUT = REPO_ROOT / "public" / "scraped-events.json"
@@ -25,17 +26,26 @@ def run():
     all_events = []
     source_results = []
 
+    today = date.today().isoformat()
+
     for adapter in ADAPTERS:
         try:
             events = adapter["fetch"]()
+            # Some sources (e.g. Ürgüp Belediyesi's "tüm etkinlikler" archive)
+            # list past events alongside upcoming ones; only upcoming/today
+            # events belong in the app.
+            upcoming = [e for e in events if e["date"] >= today]
             source_results.append({
                 "id": adapter["id"],
                 "name": adapter["name"],
                 "status": "ok",
-                "itemsCount": len(events),
+                "itemsCount": len(upcoming),
             })
-            all_events.extend(events)
-            print(f"[ok] {adapter['name']}: {len(events)} etkinlik")
+            all_events.extend(upcoming)
+            print(
+                f"[ok] {adapter['name']}: {len(upcoming)} etkinlik "
+                f"({len(events) - len(upcoming)} geçmiş etkinlik atlandı)"
+            )
         except Exception as exc:  # noqa: BLE001 - one bad source shouldn't kill the run
             source_results.append({
                 "id": adapter["id"],

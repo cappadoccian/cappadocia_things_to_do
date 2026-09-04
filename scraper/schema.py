@@ -27,6 +27,7 @@ CATEGORY_MAP = {
     "tiyatro": ("kultur", "Tiyatro", "🎭"),
     "müzik": ("konser", "Müzik", "🎵"),
     "konser": ("konser", "Konser", "🎵"),
+    "festival": ("konser", "Festival", "🎪"),
     "spor": ("doga", "Spor", "🏃"),
     "doğa": ("doga", "Doğa", "🥾"),
     "gastronomi": ("gastronomi", "Gastronomi", "🍇"),
@@ -56,11 +57,12 @@ def parse_turkish_date(text):
         return None
 
 
-def categorize(event_type_text):
+def categorize(event_type_text, default_category=None):
+    fallback = default_category or DEFAULT_CATEGORY
     if not event_type_text:
-        return DEFAULT_CATEGORY
+        return fallback
     key = event_type_text.strip().lower()
-    return CATEGORY_MAP.get(key, DEFAULT_CATEGORY)
+    return CATEGORY_MAP.get(key, fallback)
 
 
 def make_event_id(source_id, source_url):
@@ -98,14 +100,20 @@ def normalize_event(
     image=None,
     event_type_text=None,
     organizer=None,
+    default_category=None,
 ):
     """Build one event object matching the app's schema. Returns None if the
-    event can't be dated (we never guess a date for a real event)."""
+    event can't be dated (we never guess a date for a real event).
+
+    default_category lets an adapter set a source-appropriate fallback
+    (e.g. "Belediye Etkinliği" instead of the generic default) for events
+    whose type text doesn't match anything in CATEGORY_MAP.
+    """
     iso_date = parse_turkish_date(date_text)
     if not iso_date:
         return None
 
-    category, category_name, category_icon = categorize(event_type_text)
+    category, category_name, category_icon = categorize(event_type_text, default_category)
 
     return {
         "id": make_event_id(source_id, source_url),

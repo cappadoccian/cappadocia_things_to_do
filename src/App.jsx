@@ -18,7 +18,7 @@ import {
   clearCustomEvents, updateCustomEventStatus,
   getReports, reportEvent as saveReportToStorage, deleteReport
 } from './services/storage';
-import { fetchScrapedEvents, fetchScrapedMeta } from './services/eventsApi';
+import { fetchScrapedEvents, fetchScrapedMeta, isSameEvent } from './services/eventsApi';
 import { notificationService } from './services/notification';
 import { evaluateEventTrust } from './services/verification';
 import { Sparkles, Compass, Share2, ShieldCheck } from 'lucide-react';
@@ -65,12 +65,15 @@ export default function App() {
   };
 
   // Combine approved custom events, live-scraped events and the curated seed
-  // list. Scraped events win over a curated one pointing at the same source
-  // URL (the scraper's data is fresher), and everything is deduped by id.
+  // list. A curated event is dropped when a scraped event already covers the
+  // same real-world event (matched via isSameEvent — same sourceUrl, or same
+  // date + overlapping title, since the same festival often appears under a
+  // different URL in each source), since the scraper's data is fresher.
   const allActiveEvents = useMemo(() => {
     const approvedCustom = customEvents.filter(e => e.status === 'approved');
-    const scrapedSourceUrls = new Set(scrapedEvents.map(e => e.sourceUrl));
-    const seedEvents = INITIAL_EVENTS.filter(e => !scrapedSourceUrls.has(e.sourceUrl));
+    const seedEvents = INITIAL_EVENTS.filter(
+      seed => !scrapedEvents.some(scraped => isSameEvent(seed, scraped))
+    );
 
     const combined = [...approvedCustom, ...scrapedEvents, ...seedEvents];
     const seenIds = new Set();

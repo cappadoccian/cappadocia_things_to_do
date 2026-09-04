@@ -49,14 +49,25 @@ export const DATA_SOURCES = [
   },
   {
     id: "src-4",
-    name: "Göreme, Ürgüp, Avanos & Uçhisar Belediyeleri",
+    name: "Göreme, Avanos & Uçhisar Belediyeleri",
     category: "resmi",
     type: "Yerel Belediye Kültür Portalları",
     url: "https://goreme.bel.tr",
     status: "Yakında",
     color: "#2ecc71",
     icon: "📢",
-    description: "İlçe festivalleri, çömlek yarışmaları, bağbozumu şenlikleri ve açık hava sinemaları."
+    description: "İlçe festivalleri, çömlek yarışmaları ve açık hava sinemaları."
+  },
+  {
+    id: "src-15",
+    name: "Ürgüp Belediyesi",
+    category: "resmi",
+    type: "Yerel Belediye Etkinlik & Bilet Portalı",
+    url: "https://etkinlik.urgup.bel.tr/tum-etkinlikler",
+    status: "Aktif",
+    color: "#c0392b",
+    icon: "🍇",
+    description: "Ürgüp Belediyesi'nin resmi etkinlik/bilet platformundan bağ bozumu festivali, konserler ve belediye etkinlikleri."
   },
 
   // 2. Üniversiteler & Akademik
