@@ -124,6 +124,37 @@
     "isWeekend": false
   },
   {
+    "id": "src-5-7da13d6f3f",
+    "title": "Tomarza Kano Turu",
+    "category": "kultur",
+    "categoryName": "Akademik Etkinlik",
+    "categoryIcon": "🎓",
+    "town": "Nevşehir Merkez",
+    "locationName": "Yerleşke Dışı",
+    "coordinates": [
+      38.6285,
+      34.718
+    ],
+    "date": "2026-10-03",
+    "time": "",
+    "price": 0,
+    "isFree": true,
+    "priceLabel": "Ücretsiz",
+    "ticketUrl": null,
+    "organizer": "Kapadokya Üniversitesi (KUN) Kültür Merkezi",
+    "organizerContact": "",
+    "image": "/images/concert.jpg",
+    "description": "",
+    "highlights": [],
+    "sourceName": "Kapadokya Üniversitesi (KUN) Kültür Merkezi",
+    "sourceUrl": "https://kapadokya.edu.tr/etkinlikler/tomarza-kano-turu",
+    "verificationStatus": "Kaynak Sitesinden Otomatik Doğrulandı",
+    "verificationBadge": "🟢 Otomatik Doğrulanmış (Resmi Kaynak)",
+    "isPopular": false,
+    "isToday": false,
+    "isWeekend": true
+  },
+  {
     "id": "src-5-ad07e1719e",
     "title": "3. Ulusal Yapay Zeka Buluşması",
     "category": "kultur",
