@@ -1,6 +1,6 @@
 {
-  "lastRunAt": "2026-09-04T20:21:09.116699+00:00",
-  "totalEvents": 7,
+  "lastRunAt": "2026-09-05T03:13:20.550631+00:00",
+  "totalEvents": 6,
   "sources": [
     {
       "id": "src-5",
@@ -18,7 +18,7 @@
       "id": "src-15",
       "name": "Ürgüp Belediyesi",
       "status": "ok",
-      "itemsCount": 1
+      "itemsCount": 0
     },
     {
       "id": "src-16",

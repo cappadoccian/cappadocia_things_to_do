@@ -184,36 +184,5 @@
     "isPopular": false,
     "isToday": false,
     "isWeekend": false
-  },
-  {
-    "id": "src-15-493d181a3f",
-    "title": "54. Uluslararasi Ürgüp Bag Bozumu Festivali",
-    "category": "konser",
-    "categoryName": "Festival",
-    "categoryIcon": "🎪",
-    "town": "Ürgüp",
-    "locationName": "Cumhuriyet Meydani Sölen Alani",
-    "coordinates": [
-      38.631,
-      34.914
-    ],
-    "date": "2026-09-04",
-    "time": "",
-    "price": 0,
-    "isFree": true,
-    "priceLabel": "Ücretsiz",
-    "ticketUrl": null,
-    "organizer": "Ürgüp Belediyesi",
-    "organizerContact": "",
-    "image": "https://urgup.bel.tr/upload/etkinlikler/54-uluslararasi-urgup-bag-bozumu-festivali-BTg33x42QktbAGbcC2h9.png",
-    "description": "",
-    "highlights": [],
-    "sourceName": "Ürgüp Belediyesi",
-    "sourceUrl": "https://etkinlik.urgup.bel.tr/etkinlikler/54-uluslararasi-urgup-bag-bozumu-festivali/17",
-    "verificationStatus": "Kaynak Sitesinden Otomatik Doğrulandı",
-    "verificationBadge": "🟢 Otomatik Doğrulanmış (Resmi Kaynak)",
-    "isPopular": false,
-    "isToday": true,
-    "isWeekend": false
   }
 ]
