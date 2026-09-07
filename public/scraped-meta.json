@@ -1,5 +1,5 @@
 {
-  "lastRunAt": "2026-09-07T17:21:13.749634+00:00",
+  "lastRunAt": "2026-09-07T21:10:47.774969+00:00",
   "totalEvents": 6,
   "sources": [
     {
@@ -23,8 +23,9 @@
     {
       "id": "src-16",
       "name": "Göreme Belediyesi",
-      "status": "ok",
-      "itemsCount": 0
+      "status": "error",
+      "itemsCount": 0,
+      "error": "HTTPSConnectionPool(host='www.goreme.bel.tr', port=443): Max retries exceeded with url: /tr (Caused by NameResolutionError(\"HTTPSConnection(host='www.goreme.bel.tr', port=443): Failed to resolve 'www.goreme.bel.tr' ([Errno -3] Temporary failure in name resolution)\"))"
     },
     {
       "id": "src-17",
