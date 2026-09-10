@@ -1,12 +1,13 @@
 {
-  "lastRunAt": "2026-09-09T20:31:24.438565+00:00",
-  "totalEvents": 10,
+  "lastRunAt": "2026-09-10T03:21:43.442708+00:00",
+  "totalEvents": 0,
   "sources": [
     {
       "id": "src-5",
       "name": "Kapadokya Üniversitesi (KUN) Kültür Merkezi",
-      "status": "ok",
-      "itemsCount": 10
+      "status": "error",
+      "itemsCount": 0,
+      "error": "HTTPSConnectionPool(host='kapadokya.edu.tr', port=443): Max retries exceeded with url: /etkinlikler (Caused by ConnectTimeoutError(<HTTPSConnection(host='kapadokya.edu.tr', port=443) at 0x7f59f2963710>, 'Connection to kapadokya.edu.tr timed out. (connect timeout=20)'))"
     },
     {
       "id": "src-6",
