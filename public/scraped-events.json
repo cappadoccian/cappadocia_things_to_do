@@ -248,6 +248,37 @@
     "isWeekend": false
   },
   {
+    "id": "src-5-b9667e5b2d",
+    "title": "Yabancı Diller Yüksekokulu Hazırlık Sınıfları Bilgilendirme Toplantısı",
+    "category": "kultur",
+    "categoryName": "Akademik Etkinlik",
+    "categoryIcon": "🎓",
+    "town": "Nevşehir Merkez",
+    "locationName": "Kapadokya Üniversitesi",
+    "coordinates": [
+      38.6285,
+      34.718
+    ],
+    "date": "2026-09-24",
+    "time": "",
+    "price": 0,
+    "isFree": true,
+    "priceLabel": "Ücretsiz",
+    "ticketUrl": null,
+    "organizer": "Kapadokya Üniversitesi (KUN) Kültür Merkezi",
+    "organizerContact": "",
+    "image": "/images/concert.jpg",
+    "description": "",
+    "highlights": [],
+    "sourceName": "Kapadokya Üniversitesi (KUN) Kültür Merkezi",
+    "sourceUrl": "https://kapadokya.edu.tr/etkinlikler/yabanci-diller-yuksekokulu-hazirlik-siniflari-bilgilendirme-toplantisi",
+    "verificationStatus": "Kaynak Sitesinden Otomatik Doğrulandı",
+    "verificationBadge": "🟢 Otomatik Doğrulanmış (Resmi Kaynak)",
+    "isPopular": false,
+    "isToday": false,
+    "isWeekend": false
+  },
+  {
     "id": "src-5-59ed4bff8b",
     "title": "Kapadokya Bölge Turu - I",
     "category": "kultur",
