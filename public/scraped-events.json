@@ -31,6 +31,37 @@
     "isWeekend": false
   },
   {
+    "id": "src-5-9f053c7133",
+    "title": "Yasadışı Bahis ve Bilişim Suçları (İdari&Akademik Personel)",
+    "category": "kultur",
+    "categoryName": "Akademik Etkinlik",
+    "categoryIcon": "🎓",
+    "town": "Nevşehir Merkez",
+    "locationName": "Kapadokya Üniversitesi",
+    "coordinates": [
+      38.6285,
+      34.718
+    ],
+    "date": "2026-09-16",
+    "time": "",
+    "price": 0,
+    "isFree": true,
+    "priceLabel": "Ücretsiz",
+    "ticketUrl": null,
+    "organizer": "Kapadokya Üniversitesi (KUN) Kültür Merkezi",
+    "organizerContact": "",
+    "image": "/images/concert.jpg",
+    "description": "",
+    "highlights": [],
+    "sourceName": "Kapadokya Üniversitesi (KUN) Kültür Merkezi",
+    "sourceUrl": "https://kapadokya.edu.tr/etkinlikler/yasadisi-bahis-ve-bilisim-suclari-idari-akademik-personel",
+    "verificationStatus": "Kaynak Sitesinden Otomatik Doğrulandı",
+    "verificationBadge": "🟢 Otomatik Doğrulanmış (Resmi Kaynak)",
+    "isPopular": false,
+    "isToday": false,
+    "isWeekend": false
+  },
+  {
     "id": "src-5-7135ec3f6d",
     "title": "Bisiklet Turu - Mustafapaşa",
     "category": "kultur",
