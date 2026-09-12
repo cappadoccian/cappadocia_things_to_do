@@ -1,36 +1,5 @@
 [
   {
-    "id": "src-5-b1ea0e1b84",
-    "title": "Yöntembilim Çalıştayı",
-    "category": "kultur",
-    "categoryName": "Akademik Etkinlik",
-    "categoryIcon": "🎓",
-    "town": "Ürgüp",
-    "locationName": "Mustafapaşa Yerleşkesi",
-    "coordinates": [
-      38.612,
-      34.928
-    ],
-    "date": "2026-09-11",
-    "time": "",
-    "price": 0,
-    "isFree": true,
-    "priceLabel": "Ücretsiz",
-    "ticketUrl": null,
-    "organizer": "Kapadokya Üniversitesi (KUN) Kültür Merkezi",
-    "organizerContact": "",
-    "image": "/images/concert.jpg",
-    "description": "Kapadokya Üniversitesi İnsan ve Toplum Bilimleri Fakültesi bünyesinde, akademik araştırmalarda güncel metodolojik yaklaşımların ele alınacağı Yöntembilim Çalıştayı'na ev sahipliği yapıyoruz.",
-    "highlights": [],
-    "sourceName": "Kapadokya Üniversitesi (KUN) Kültür Merkezi",
-    "sourceUrl": "https://kapadokya.edu.tr/etkinlikler/yontembilim-calistayi",
-    "verificationStatus": "Kaynak Sitesinden Otomatik Doğrulandı",
-    "verificationBadge": "🟢 Otomatik Doğrulanmış (Resmi Kaynak)",
-    "isPopular": false,
-    "isToday": true,
-    "isWeekend": false
-  },
-  {
     "id": "src-5-9f053c7133",
     "title": "Yasadışı Bahis ve Bilişim Suçları (İdari&Akademik Personel)",
     "category": "kultur",
