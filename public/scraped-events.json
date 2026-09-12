@@ -186,6 +186,37 @@
     "isWeekend": false
   },
   {
+    "id": "src-5-0f632bc975",
+    "title": "Çöp Değil Kaynak - Atık Ayrıştırma Bilgi Yarışması",
+    "category": "kultur",
+    "categoryName": "Akademik Etkinlik",
+    "categoryIcon": "🎓",
+    "town": "Nevşehir Merkez",
+    "locationName": "Kapadokya Yerleşkesi",
+    "coordinates": [
+      38.6285,
+      34.718
+    ],
+    "date": "2026-09-23",
+    "time": "",
+    "price": 0,
+    "isFree": true,
+    "priceLabel": "Ücretsiz",
+    "ticketUrl": null,
+    "organizer": "Kapadokya Üniversitesi (KUN) Kültür Merkezi",
+    "organizerContact": "",
+    "image": "/images/concert.jpg",
+    "description": "",
+    "highlights": [],
+    "sourceName": "Kapadokya Üniversitesi (KUN) Kültür Merkezi",
+    "sourceUrl": "https://kapadokya.edu.tr/etkinlikler/cop-degil-kaynak-atik-ayristirma-bilgi-yarismasi",
+    "verificationStatus": "Kaynak Sitesinden Otomatik Doğrulandı",
+    "verificationBadge": "🟢 Otomatik Doğrulanmış (Resmi Kaynak)",
+    "isPopular": false,
+    "isToday": false,
+    "isWeekend": false
+  },
+  {
     "id": "src-5-94af69e2bb",
     "title": "Anadolu Kültüründe Şifa",
     "category": "kultur",
