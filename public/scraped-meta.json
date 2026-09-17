@@ -1,5 +1,5 @@
 {
-  "lastRunAt": "2026-09-17T11:04:51.701098+00:00",
+  "lastRunAt": "2026-09-17T16:21:44.000926+00:00",
   "totalEvents": 24,
   "sources": [
     {
@@ -29,8 +29,9 @@
     {
       "id": "src-17",
       "name": "Kozaklı Belediyesi",
-      "status": "ok",
-      "itemsCount": 0
+      "status": "error",
+      "itemsCount": 0,
+      "error": "HTTPSConnectionPool(host='www.kozakli.bel.tr', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.kozakli.bel.tr', port=443): Failed to resolve 'www.kozakli.bel.tr' ([Errno -3] Temporary failure in name resolution)\"))"
     }
   ]
 }
