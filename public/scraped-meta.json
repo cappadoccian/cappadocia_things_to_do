@@ -1,12 +1,13 @@
 {
-  "lastRunAt": "2026-09-21T12:08:26.179054+00:00",
-  "totalEvents": 24,
+  "lastRunAt": "2026-09-21T21:44:59.395887+00:00",
+  "totalEvents": 0,
   "sources": [
     {
       "id": "src-5",
       "name": "Kapadokya Üniversitesi (KUN) Kültür Merkezi",
-      "status": "ok",
-      "itemsCount": 24
+      "status": "error",
+      "itemsCount": 0,
+      "error": "HTTPSConnectionPool(host='kapadokya.edu.tr', port=443): Read timed out. (read timeout=20)"
     },
     {
       "id": "src-6",
