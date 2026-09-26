@@ -93,6 +93,37 @@
     "isWeekend": true
   },
   {
+    "id": "src-5-6a1f36f0f9",
+    "title": "Kumar ve Teknoloji Bağımlılığı",
+    "category": "kultur",
+    "categoryName": "Akademik Etkinlik",
+    "categoryIcon": "🎓",
+    "town": "Ürgüp",
+    "locationName": "Mustafapaşa Yerleşkesi",
+    "coordinates": [
+      38.612,
+      34.928
+    ],
+    "date": "2026-09-28",
+    "time": "",
+    "price": 0,
+    "isFree": true,
+    "priceLabel": "Ücretsiz",
+    "ticketUrl": null,
+    "organizer": "Kapadokya Üniversitesi (KUN) Kültür Merkezi",
+    "organizerContact": "",
+    "image": "/images/concert.jpg",
+    "description": "",
+    "highlights": [],
+    "sourceName": "Kapadokya Üniversitesi (KUN) Kültür Merkezi",
+    "sourceUrl": "https://kapadokya.edu.tr/etkinlikler/kumar-ve-teknoloji-bagimliligi",
+    "verificationStatus": "Kaynak Sitesinden Otomatik Doğrulandı",
+    "verificationBadge": "🟢 Otomatik Doğrulanmış (Resmi Kaynak)",
+    "isPopular": false,
+    "isToday": false,
+    "isWeekend": false
+  },
+  {
     "id": "src-5-49c09a5d32",
     "title": "NERO Akademi Semineri - Kapadokya ve Roma",
     "category": "kultur",
