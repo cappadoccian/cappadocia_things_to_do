@@ -1,36 +1,5 @@
 [
   {
-    "id": "src-5-59ed4bff8b",
-    "title": "Kapadokya Bölge Turu - I",
-    "category": "kultur",
-    "categoryName": "Akademik Etkinlik",
-    "categoryIcon": "🎓",
-    "town": "Nevşehir Merkez",
-    "locationName": "Kapadokya Yerleşkesi",
-    "coordinates": [
-      38.6285,
-      34.718
-    ],
-    "date": "2026-09-27",
-    "time": "",
-    "price": 0,
-    "isFree": true,
-    "priceLabel": "Ücretsiz",
-    "ticketUrl": null,
-    "organizer": "Kapadokya Üniversitesi (KUN) Kültür Merkezi",
-    "organizerContact": "",
-    "image": "/images/concert.jpg",
-    "description": "",
-    "highlights": [],
-    "sourceName": "Kapadokya Üniversitesi (KUN) Kültür Merkezi",
-    "sourceUrl": "https://kapadokya.edu.tr/etkinlikler/kapadokya-bolge-turu-i",
-    "verificationStatus": "Kaynak Sitesinden Otomatik Doğrulandı",
-    "verificationBadge": "🟢 Otomatik Doğrulanmış (Resmi Kaynak)",
-    "isPopular": false,
-    "isToday": true,
-    "isWeekend": true
-  },
-  {
     "id": "src-5-6a1f36f0f9",
     "title": "Kumar ve Teknoloji Bağımlılığı",
     "category": "kultur",
@@ -58,7 +27,7 @@
     "verificationStatus": "Kaynak Sitesinden Otomatik Doğrulandı",
     "verificationBadge": "🟢 Otomatik Doğrulanmış (Resmi Kaynak)",
     "isPopular": false,
-    "isToday": false,
+    "isToday": true,
     "isWeekend": false
   },
   {
