@@ -1,7 +1,7 @@
 [
   {
-    "id": "src-5-49c09a5d32",
-    "title": "NERO Akademi Semineri - Kapadokya ve Roma",
+    "id": "src-5-29b75991f7",
+    "title": "Öğrenci - Akademisyen Buluşması",
     "category": "kultur",
     "categoryName": "Akademik Etkinlik",
     "categoryIcon": "🎓",
@@ -11,7 +11,7 @@
       38.6285,
       34.718
     ],
-    "date": "2026-09-29",
+    "date": "2026-09-30",
     "time": "",
     "price": 0,
     "isFree": true,
@@ -23,11 +23,11 @@
     "description": "",
     "highlights": [],
     "sourceName": "Kapadokya Üniversitesi (KUN) Kültür Merkezi",
-    "sourceUrl": "https://kapadokya.edu.tr/etkinlikler/nero-akademi-semineri-kapadokya-ve-roma",
+    "sourceUrl": "https://kapadokya.edu.tr/etkinlikler/ogrenci-akademisyen-bulusmasi",
     "verificationStatus": "Kaynak Sitesinden Otomatik Doğrulandı",
     "verificationBadge": "🟢 Otomatik Doğrulanmış (Resmi Kaynak)",
     "isPopular": false,
-    "isToday": true,
+    "isToday": false,
     "isWeekend": false
   },
   {
