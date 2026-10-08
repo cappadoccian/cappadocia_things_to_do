@@ -1,36 +1,5 @@
 [
   {
-    "id": "src-5-42f29227b4",
-    "title": "Reading Water in Taiwan: Jessica J. Lee, Coloniality, and Blue Modernity",
-    "category": "kultur",
-    "categoryName": "Akademik Etkinlik",
-    "categoryIcon": "🎓",
-    "town": "Nevşehir Merkez",
-    "locationName": "Kapadokya Üniversitesi Youtube Kanalı",
-    "coordinates": [
-      38.6285,
-      34.718
-    ],
-    "date": "2026-10-08",
-    "time": "",
-    "price": 0,
-    "isFree": true,
-    "priceLabel": "Ücretsiz",
-    "ticketUrl": null,
-    "organizer": "Kapadokya Üniversitesi (KUN) Kültür Merkezi",
-    "organizerContact": "",
-    "image": "/images/concert.jpg",
-    "description": "",
-    "highlights": [],
-    "sourceName": "Kapadokya Üniversitesi (KUN) Kültür Merkezi",
-    "sourceUrl": "https://kapadokya.edu.tr/etkinlikler/reading-water-in-taiwan-jessica-j-lee-coloniality-and-blue-modernity",
-    "verificationStatus": "Kaynak Sitesinden Otomatik Doğrulandı",
-    "verificationBadge": "🟢 Otomatik Doğrulanmış (Resmi Kaynak)",
-    "isPopular": false,
-    "isToday": true,
-    "isWeekend": false
-  },
-  {
     "id": "src-5-0aaf3476d2",
     "title": "Dünya Nöbetindeki Onarımcılar - Nihilist Manipülasyon ve Post-Truth Çağı",
     "category": "kultur",
