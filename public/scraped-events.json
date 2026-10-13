@@ -1,36 +1,5 @@
 [
   {
-    "id": "src-5-7d8cfb43a2",
-    "title": "2026-2027 Akademik Yılı Açılış Dersi",
-    "category": "kultur",
-    "categoryName": "Akademik Etkinlik",
-    "categoryIcon": "🎓",
-    "town": "Nevşehir Merkez",
-    "locationName": "Ürgüp Fabrika Yerleşkesi",
-    "coordinates": [
-      38.6285,
-      34.718
-    ],
-    "date": "2026-10-12",
-    "time": "",
-    "price": 0,
-    "isFree": true,
-    "priceLabel": "Ücretsiz",
-    "ticketUrl": null,
-    "organizer": "Kapadokya Üniversitesi (KUN) Kültür Merkezi",
-    "organizerContact": "",
-    "image": "/images/concert.jpg",
-    "description": "",
-    "highlights": [],
-    "sourceName": "Kapadokya Üniversitesi (KUN) Kültür Merkezi",
-    "sourceUrl": "https://kapadokya.edu.tr/etkinlikler/2026-2027-akademik-yili-acilis-dersi",
-    "verificationStatus": "Kaynak Sitesinden Otomatik Doğrulandı",
-    "verificationBadge": "🟢 Otomatik Doğrulanmış (Resmi Kaynak)",
-    "isPopular": false,
-    "isToday": true,
-    "isWeekend": false
-  },
-  {
     "id": "src-5-9e96cbdb2f",
     "title": "Ceza İnfaz Kurumlarında Deneyimler ve Öneriler",
     "category": "kultur",
@@ -58,7 +27,7 @@
     "verificationStatus": "Kaynak Sitesinden Otomatik Doğrulandı",
     "verificationBadge": "🟢 Otomatik Doğrulanmış (Resmi Kaynak)",
     "isPopular": false,
-    "isToday": false,
+    "isToday": true,
     "isWeekend": false
   },
   {
@@ -89,7 +58,7 @@
     "verificationStatus": "Kaynak Sitesinden Otomatik Doğrulandı",
     "verificationBadge": "🟢 Otomatik Doğrulanmış (Resmi Kaynak)",
     "isPopular": false,
-    "isToday": false,
+    "isToday": true,
     "isWeekend": false
   },
   {
@@ -120,7 +89,7 @@
     "verificationStatus": "Kaynak Sitesinden Otomatik Doğrulandı",
     "verificationBadge": "🟢 Otomatik Doğrulanmış (Resmi Kaynak)",
     "isPopular": false,
-    "isToday": false,
+    "isToday": true,
     "isWeekend": false
   },
   {
@@ -151,7 +120,7 @@
     "verificationStatus": "Kaynak Sitesinden Otomatik Doğrulandı",
     "verificationBadge": "🟢 Otomatik Doğrulanmış (Resmi Kaynak)",
     "isPopular": false,
-    "isToday": false,
+    "isToday": true,
     "isWeekend": false
   },
   {
@@ -744,65 +713,34 @@
     "isWeekend": false
   },
   {
-    "id": "src-6-07141f6684",
-    "title": "“Yüzleşerek Barışmak: Terörsüz Türkiye” Başlıklı Konferans",
+    "id": "src-5-18680258df",
+    "title": "Zihin Kuramı",
     "category": "kultur",
     "categoryName": "Akademik Etkinlik",
     "categoryIcon": "🎓",
-    "town": "Nevşehir Merkez",
-    "locationName": "Kültür ve Kongre Merkezi Karavezir Salonu",
+    "town": "Ürgüp",
+    "locationName": "Mustafapaşa Yerleşkesi",
     "coordinates": [
-      38.6285,
-      34.718
+      38.612,
+      34.928
     ],
-    "date": "2026-10-12",
-    "time": "13:25",
+    "date": "2026-10-26",
+    "time": "",
     "price": 0,
     "isFree": true,
     "priceLabel": "Ücretsiz",
     "ticketUrl": null,
-    "organizer": "Nevşehir Hacı Bektaş Veli Üniversitesi (NEVÜ)",
+    "organizer": "Kapadokya Üniversitesi (KUN) Kültür Merkezi",
     "organizerContact": "",
     "image": "/images/concert.jpg",
     "description": "",
     "highlights": [],
-    "sourceName": "Nevşehir Hacı Bektaş Veli Üniversitesi (NEVÜ)",
-    "sourceUrl": "https://www.nevsehir.edu.tr/tr/58628",
+    "sourceName": "Kapadokya Üniversitesi (KUN) Kültür Merkezi",
+    "sourceUrl": "https://kapadokya.edu.tr/etkinlikler/zihin-kurami",
     "verificationStatus": "Kaynak Sitesinden Otomatik Doğrulandı",
     "verificationBadge": "🟢 Otomatik Doğrulanmış (Resmi Kaynak)",
     "isPopular": false,
-    "isToday": true,
-    "isWeekend": false
-  },
-  {
-    "id": "src-6-558b04168c",
-    "title": "Tolstoy Okuma Grubu Etkinliği",
-    "category": "kultur",
-    "categoryName": "Akademik Etkinlik",
-    "categoryIcon": "🎓",
-    "town": "Nevşehir Merkez",
-    "locationName": "Camlı Köşk",
-    "coordinates": [
-      38.6285,
-      34.718
-    ],
-    "date": "2026-10-12",
-    "time": "17:00",
-    "price": 0,
-    "isFree": true,
-    "priceLabel": "Ücretsiz",
-    "ticketUrl": null,
-    "organizer": "Nevşehir Hacı Bektaş Veli Üniversitesi (NEVÜ)",
-    "organizerContact": "",
-    "image": "/images/concert.jpg",
-    "description": "",
-    "highlights": [],
-    "sourceName": "Nevşehir Hacı Bektaş Veli Üniversitesi (NEVÜ)",
-    "sourceUrl": "https://www.nevsehir.edu.tr/tr/58578",
-    "verificationStatus": "Kaynak Sitesinden Otomatik Doğrulandı",
-    "verificationBadge": "🟢 Otomatik Doğrulanmış (Resmi Kaynak)",
-    "isPopular": false,
-    "isToday": true,
+    "isToday": false,
     "isWeekend": false
   }
 ]
