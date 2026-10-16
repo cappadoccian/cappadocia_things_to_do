@@ -1,5 +1,36 @@
 [
   {
+    "id": "src-5-ad07e1719e",
+    "title": "3. Ulusal Yapay Zeka Buluşması",
+    "category": "kultur",
+    "categoryName": "Akademik Etkinlik",
+    "categoryIcon": "🎓",
+    "town": "Nevşehir Merkez",
+    "locationName": "Fabrika Yerleşkesi",
+    "coordinates": [
+      38.6285,
+      34.718
+    ],
+    "date": "2026-10-16",
+    "time": "",
+    "price": 0,
+    "isFree": true,
+    "priceLabel": "Ücretsiz",
+    "ticketUrl": null,
+    "organizer": "Kapadokya Üniversitesi (KUN) Kültür Merkezi",
+    "organizerContact": "",
+    "image": "/images/concert.jpg",
+    "description": "​Bilim insanları, girişimciler, sektör temsilcileri ve öğrencilerin yapay zekânın dönüştürücü gücünü ve geleceğini keşfedeceği 3. Ulusal Yapay Zekâ Buluşması’na ev sahipliği yapıyoruz.",
+    "highlights": [],
+    "sourceName": "Kapadokya Üniversitesi (KUN) Kültür Merkezi",
+    "sourceUrl": "https://kapadokya.edu.tr/etkinlikler/3-ulusal-yapay-zeka-bulusmasi",
+    "verificationStatus": "Kaynak Sitesinden Otomatik Doğrulandı",
+    "verificationBadge": "🟢 Otomatik Doğrulanmış (Resmi Kaynak)",
+    "isPopular": false,
+    "isToday": true,
+    "isWeekend": false
+  },
+  {
     "id": "src-5-467325e0cb",
     "title": "Yapay Zekâ Çağında Mesleklerin Dönüşümü ve Gelecek Perspektifi",
     "category": "kultur",
@@ -711,36 +742,5 @@
     "isPopular": false,
     "isToday": false,
     "isWeekend": true
-  },
-  {
-    "id": "src-5-e6b53dfada",
-    "title": "Laboratuvarda Kriz Yönetimi: Etkili İletişim",
-    "category": "kultur",
-    "categoryName": "Akademik Etkinlik",
-    "categoryIcon": "🎓",
-    "town": "Nevşehir Merkez",
-    "locationName": "Çevrim İçi",
-    "coordinates": [
-      38.6285,
-      34.718
-    ],
-    "date": "2026-10-26",
-    "time": "",
-    "price": 0,
-    "isFree": true,
-    "priceLabel": "Ücretsiz",
-    "ticketUrl": null,
-    "organizer": "Kapadokya Üniversitesi (KUN) Kültür Merkezi",
-    "organizerContact": "",
-    "image": "/images/concert.jpg",
-    "description": "",
-    "highlights": [],
-    "sourceName": "Kapadokya Üniversitesi (KUN) Kültür Merkezi",
-    "sourceUrl": "https://kapadokya.edu.tr/etkinlikler/laboratuvarda-kriz-yonetimi-etkili-iletisim",
-    "verificationStatus": "Kaynak Sitesinden Otomatik Doğrulandı",
-    "verificationBadge": "🟢 Otomatik Doğrulanmış (Resmi Kaynak)",
-    "isPopular": false,
-    "isToday": false,
-    "isWeekend": false
   }
 ]
