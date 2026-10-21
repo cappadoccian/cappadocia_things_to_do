@@ -1,12 +1,12 @@
 {
-  "lastRunAt": "2026-10-21T16:42:32.132066+00:00",
-  "totalEvents": 21,
+  "lastRunAt": "2026-10-21T21:18:47.020112+00:00",
+  "totalEvents": 22,
   "sources": [
     {
       "id": "src-5",
       "name": "Kapadokya Üniversitesi (KUN) Kültür Merkezi",
       "status": "ok",
-      "itemsCount": 20
+      "itemsCount": 21
     },
     {
       "id": "src-6",
