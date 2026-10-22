@@ -1,6 +1,6 @@
 {
-  "lastRunAt": "2026-10-21T21:18:47.020112+00:00",
-  "totalEvents": 22,
+  "lastRunAt": "2026-10-22T03:31:57.242413+00:00",
+  "totalEvents": 21,
   "sources": [
     {
       "id": "src-5",
@@ -12,7 +12,7 @@
       "id": "src-6",
       "name": "Nevşehir Hacı Bektaş Veli Üniversitesi (NEVÜ)",
       "status": "ok",
-      "itemsCount": 1
+      "itemsCount": 0
     },
     {
       "id": "src-15",
