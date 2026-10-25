@@ -1,5 +1,5 @@
 {
-  "lastRunAt": "2026-10-25T15:38:34.250085+00:00",
+  "lastRunAt": "2026-10-25T20:26:54.273155+00:00",
   "totalEvents": 17,
   "sources": [
     {
@@ -11,9 +11,8 @@
     {
       "id": "src-6",
       "name": "Nevşehir Hacı Bektaş Veli Üniversitesi (NEVÜ)",
-      "status": "error",
-      "itemsCount": 0,
-      "error": "HTTPSConnectionPool(host='www.nevsehir.edu.tr', port=443): Max retries exceeded with url: /tr/ogrenci/etkinlik (Caused by NameResolutionError(\"HTTPSConnection(host='www.nevsehir.edu.tr', port=443): Failed to resolve 'www.nevsehir.edu.tr' ([Errno -3] Temporary failure in name resolution)\"))"
+      "status": "ok",
+      "itemsCount": 0
     },
     {
       "id": "src-15",
