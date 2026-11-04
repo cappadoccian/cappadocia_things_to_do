@@ -1,18 +1,18 @@
 {
-  "lastRunAt": "2026-11-04T05:02:15.123867+00:00",
-  "totalEvents": 17,
+  "lastRunAt": "2026-11-04T13:51:38.578807+00:00",
+  "totalEvents": 22,
   "sources": [
     {
       "id": "src-5",
       "name": "Kapadokya Üniversitesi (KUN) Kültür Merkezi",
       "status": "ok",
-      "itemsCount": 17
+      "itemsCount": 21
     },
     {
       "id": "src-6",
       "name": "Nevşehir Hacı Bektaş Veli Üniversitesi (NEVÜ)",
       "status": "ok",
-      "itemsCount": 0
+      "itemsCount": 1
     },
     {
       "id": "src-15",
