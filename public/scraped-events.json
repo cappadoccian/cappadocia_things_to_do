@@ -1,36 +1,5 @@
 [
   {
-    "id": "src-5-c9880965cc",
-    "title": "Karaoke Geceleri - I",
-    "category": "kultur",
-    "categoryName": "Akademik Etkinlik",
-    "categoryIcon": "🎓",
-    "town": "Nevşehir Merkez",
-    "locationName": "Kapadokya Yerleşkesi",
-    "coordinates": [
-      38.6285,
-      34.718
-    ],
-    "date": "2026-11-11",
-    "time": "",
-    "price": 0,
-    "isFree": true,
-    "priceLabel": "Ücretsiz",
-    "ticketUrl": null,
-    "organizer": "Kapadokya Üniversitesi (KUN) Kültür Merkezi",
-    "organizerContact": "",
-    "image": "/images/concert.jpg",
-    "description": "",
-    "highlights": [],
-    "sourceName": "Kapadokya Üniversitesi (KUN) Kültür Merkezi",
-    "sourceUrl": "https://kapadokya.edu.tr/etkinlikler/karaoke-geceleri-i",
-    "verificationStatus": "Kaynak Sitesinden Otomatik Doğrulandı",
-    "verificationBadge": "🟢 Otomatik Doğrulanmış (Resmi Kaynak)",
-    "isPopular": false,
-    "isToday": true,
-    "isWeekend": false
-  },
-  {
     "id": "src-5-06e280a3de",
     "title": "Fizyoterapide Klinik Vaka Örnekleri",
     "category": "kultur",
@@ -58,7 +27,7 @@
     "verificationStatus": "Kaynak Sitesinden Otomatik Doğrulandı",
     "verificationBadge": "🟢 Otomatik Doğrulanmış (Resmi Kaynak)",
     "isPopular": false,
-    "isToday": false,
+    "isToday": true,
     "isWeekend": false
   },
   {
@@ -89,7 +58,7 @@
     "verificationStatus": "Kaynak Sitesinden Otomatik Doğrulandı",
     "verificationBadge": "🟢 Otomatik Doğrulanmış (Resmi Kaynak)",
     "isPopular": false,
-    "isToday": false,
+    "isToday": true,
     "isWeekend": false
   },
   {
@@ -120,7 +89,7 @@
     "verificationStatus": "Kaynak Sitesinden Otomatik Doğrulandı",
     "verificationBadge": "🟢 Otomatik Doğrulanmış (Resmi Kaynak)",
     "isPopular": false,
-    "isToday": false,
+    "isToday": true,
     "isWeekend": false
   },
   {
@@ -151,7 +120,7 @@
     "verificationStatus": "Kaynak Sitesinden Otomatik Doğrulandı",
     "verificationBadge": "🟢 Otomatik Doğrulanmış (Resmi Kaynak)",
     "isPopular": false,
-    "isToday": false,
+    "isToday": true,
     "isWeekend": false
   },
   {
@@ -744,34 +713,34 @@
     "isWeekend": true
   },
   {
-    "id": "src-6-4118508730",
-    "title": "\"Dostoyevski ve Biz: Batılılaşma Karşısında Osmanlı- Türk ve Rus Aydın Davranışı\" Başlıklı Etkinlik",
+    "id": "src-5-e55b965f78",
+    "title": "Servikal Kanser Taramasında Patoloji Laboratuvarının Rolü",
     "category": "kultur",
     "categoryName": "Akademik Etkinlik",
     "categoryIcon": "🎓",
     "town": "Nevşehir Merkez",
-    "locationName": "Kültür ve Kongre Merkezi Karavezir Salonu",
+    "locationName": "Kapadokya Üniversitesi",
     "coordinates": [
       38.6285,
       34.718
     ],
-    "date": "2026-11-11",
-    "time": "13:25",
+    "date": "2026-11-21",
+    "time": "",
     "price": 0,
     "isFree": true,
     "priceLabel": "Ücretsiz",
     "ticketUrl": null,
-    "organizer": "Nevşehir Hacı Bektaş Veli Üniversitesi (NEVÜ)",
+    "organizer": "Kapadokya Üniversitesi (KUN) Kültür Merkezi",
     "organizerContact": "",
     "image": "/images/concert.jpg",
     "description": "",
     "highlights": [],
-    "sourceName": "Nevşehir Hacı Bektaş Veli Üniversitesi (NEVÜ)",
-    "sourceUrl": "https://www.nevsehir.edu.tr/tr/59359",
+    "sourceName": "Kapadokya Üniversitesi (KUN) Kültür Merkezi",
+    "sourceUrl": "https://kapadokya.edu.tr/etkinlikler/servikal-kanser-taramasinda-patoloji-laboratuvarinin-rolu",
     "verificationStatus": "Kaynak Sitesinden Otomatik Doğrulandı",
     "verificationBadge": "🟢 Otomatik Doğrulanmış (Resmi Kaynak)",
     "isPopular": false,
-    "isToday": true,
-    "isWeekend": false
+    "isToday": false,
+    "isWeekend": true
   }
 ]
