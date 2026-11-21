@@ -27,7 +27,7 @@
     "verificationStatus": "Kaynak Sitesinden Otomatik Doğrulandı",
     "verificationBadge": "🟢 Otomatik Doğrulanmış (Resmi Kaynak)",
     "isPopular": false,
-    "isToday": false,
+    "isToday": true,
     "isWeekend": true
   },
   {
@@ -58,7 +58,7 @@
     "verificationStatus": "Kaynak Sitesinden Otomatik Doğrulandı",
     "verificationBadge": "🟢 Otomatik Doğrulanmış (Resmi Kaynak)",
     "isPopular": false,
-    "isToday": false,
+    "isToday": true,
     "isWeekend": true
   },
   {
@@ -89,7 +89,7 @@
     "verificationStatus": "Kaynak Sitesinden Otomatik Doğrulandı",
     "verificationBadge": "🟢 Otomatik Doğrulanmış (Resmi Kaynak)",
     "isPopular": false,
-    "isToday": false,
+    "isToday": true,
     "isWeekend": true
   },
   {
@@ -120,7 +120,7 @@
     "verificationStatus": "Kaynak Sitesinden Otomatik Doğrulandı",
     "verificationBadge": "🟢 Otomatik Doğrulanmış (Resmi Kaynak)",
     "isPopular": false,
-    "isToday": false,
+    "isToday": true,
     "isWeekend": true
   },
   {
@@ -151,7 +151,7 @@
     "verificationStatus": "Kaynak Sitesinden Otomatik Doğrulandı",
     "verificationBadge": "🟢 Otomatik Doğrulanmış (Resmi Kaynak)",
     "isPopular": false,
-    "isToday": false,
+    "isToday": true,
     "isWeekend": true
   },
   {
@@ -182,7 +182,7 @@
     "verificationStatus": "Kaynak Sitesinden Otomatik Doğrulandı",
     "verificationBadge": "🟢 Otomatik Doğrulanmış (Resmi Kaynak)",
     "isPopular": false,
-    "isToday": false,
+    "isToday": true,
     "isWeekend": true
   },
   {
@@ -803,68 +803,6 @@
     "verificationBadge": "🟢 Otomatik Doğrulanmış (Resmi Kaynak)",
     "isPopular": false,
     "isToday": false,
-    "isWeekend": false
-  },
-  {
-    "id": "src-6-0e0189403c",
-    "title": "12. Kadın ve Bilim Etkinliği NEVÜ'de Başlıyor!",
-    "category": "kultur",
-    "categoryName": "Akademik Etkinlik",
-    "categoryIcon": "🎓",
-    "town": "Nevşehir Merkez",
-    "locationName": "Kültür ve Kongre Merkezi Karavezir Salonu",
-    "coordinates": [
-      38.6285,
-      34.718
-    ],
-    "date": "2026-11-20",
-    "time": "09:30",
-    "price": 0,
-    "isFree": true,
-    "priceLabel": "Ücretsiz",
-    "ticketUrl": null,
-    "organizer": "Nevşehir Hacı Bektaş Veli Üniversitesi (NEVÜ)",
-    "organizerContact": "",
-    "image": "/images/concert.jpg",
-    "description": "",
-    "highlights": [],
-    "sourceName": "Nevşehir Hacı Bektaş Veli Üniversitesi (NEVÜ)",
-    "sourceUrl": "https://sks.nevsehir.edu.tr/tr/59528?onizleme",
-    "verificationStatus": "Kaynak Sitesinden Otomatik Doğrulandı",
-    "verificationBadge": "🟢 Otomatik Doğrulanmış (Resmi Kaynak)",
-    "isPopular": false,
-    "isToday": true,
-    "isWeekend": false
-  },
-  {
-    "id": "src-6-f0e9b54d1b",
-    "title": "Kamuda Kariyer Sınavlarına Hazırlık Semineri” 20 Kasım’da İİBF'de",
-    "category": "kultur",
-    "categoryName": "Akademik Etkinlik",
-    "categoryIcon": "🎓",
-    "town": "Nevşehir Merkez",
-    "locationName": "İktisadi ve İdari Bilimler Fakültesi Konferans Salonu",
-    "coordinates": [
-      38.6285,
-      34.718
-    ],
-    "date": "2026-11-20",
-    "time": "14:30",
-    "price": 0,
-    "isFree": true,
-    "priceLabel": "Ücretsiz",
-    "ticketUrl": null,
-    "organizer": "Nevşehir Hacı Bektaş Veli Üniversitesi (NEVÜ)",
-    "organizerContact": "",
-    "image": "/images/concert.jpg",
-    "description": "",
-    "highlights": [],
-    "sourceName": "Nevşehir Hacı Bektaş Veli Üniversitesi (NEVÜ)",
-    "sourceUrl": "https://www.nevsehir.edu.tr/tr/59592",
-    "verificationStatus": "Kaynak Sitesinden Otomatik Doğrulandı",
-    "verificationBadge": "🟢 Otomatik Doğrulanmış (Resmi Kaynak)",
-    "isPopular": false,
-    "isToday": true,
     "isWeekend": false
   }
 ]
