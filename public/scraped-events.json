@@ -1,67 +1,5 @@
 [
   {
-    "id": "src-5-e623c6c2bd",
-    "title": "Karaoke Geceleri - II",
-    "category": "kultur",
-    "categoryName": "Akademik Etkinlik",
-    "categoryIcon": "🎓",
-    "town": "Nevşehir Merkez",
-    "locationName": "Kapadokya Yerleşkesi",
-    "coordinates": [
-      38.6285,
-      34.718
-    ],
-    "date": "2026-11-25",
-    "time": "",
-    "price": 0,
-    "isFree": true,
-    "priceLabel": "Ücretsiz",
-    "ticketUrl": null,
-    "organizer": "Kapadokya Üniversitesi (KUN) Kültür Merkezi",
-    "organizerContact": "",
-    "image": "/images/concert.jpg",
-    "description": "",
-    "highlights": [],
-    "sourceName": "Kapadokya Üniversitesi (KUN) Kültür Merkezi",
-    "sourceUrl": "https://kapadokya.edu.tr/etkinlikler/karaoke-geceleri-ii",
-    "verificationStatus": "Kaynak Sitesinden Otomatik Doğrulandı",
-    "verificationBadge": "🟢 Otomatik Doğrulanmış (Resmi Kaynak)",
-    "isPopular": false,
-    "isToday": true,
-    "isWeekend": false
-  },
-  {
-    "id": "src-5-92cf23ff67",
-    "title": "Voleybol Turnuvası - I",
-    "category": "kultur",
-    "categoryName": "Akademik Etkinlik",
-    "categoryIcon": "🎓",
-    "town": "Nevşehir Merkez",
-    "locationName": "Kapadokya Yerleşkesi",
-    "coordinates": [
-      38.6285,
-      34.718
-    ],
-    "date": "2026-11-25",
-    "time": "",
-    "price": 0,
-    "isFree": true,
-    "priceLabel": "Ücretsiz",
-    "ticketUrl": null,
-    "organizer": "Kapadokya Üniversitesi (KUN) Kültür Merkezi",
-    "organizerContact": "",
-    "image": "/images/concert.jpg",
-    "description": "",
-    "highlights": [],
-    "sourceName": "Kapadokya Üniversitesi (KUN) Kültür Merkezi",
-    "sourceUrl": "https://kapadokya.edu.tr/etkinlikler/voleybol-turnuvasi-i",
-    "verificationStatus": "Kaynak Sitesinden Otomatik Doğrulandı",
-    "verificationBadge": "🟢 Otomatik Doğrulanmış (Resmi Kaynak)",
-    "isPopular": false,
-    "isToday": true,
-    "isWeekend": false
-  },
-  {
     "id": "src-5-6d815335bd",
     "title": "İşitmeye Giden Yol: Cerrahi ve İntraoperatif Odyoloji",
     "category": "kultur",
@@ -89,7 +27,7 @@
     "verificationStatus": "Kaynak Sitesinden Otomatik Doğrulandı",
     "verificationBadge": "🟢 Otomatik Doğrulanmış (Resmi Kaynak)",
     "isPopular": false,
-    "isToday": false,
+    "isToday": true,
     "isWeekend": false
   },
   {
@@ -120,7 +58,7 @@
     "verificationStatus": "Kaynak Sitesinden Otomatik Doğrulandı",
     "verificationBadge": "🟢 Otomatik Doğrulanmış (Resmi Kaynak)",
     "isPopular": false,
-    "isToday": false,
+    "isToday": true,
     "isWeekend": false
   },
   {
@@ -151,7 +89,7 @@
     "verificationStatus": "Kaynak Sitesinden Otomatik Doğrulandı",
     "verificationBadge": "🟢 Otomatik Doğrulanmış (Resmi Kaynak)",
     "isPopular": false,
-    "isToday": false,
+    "isToday": true,
     "isWeekend": false
   },
   {
@@ -182,7 +120,7 @@
     "verificationStatus": "Kaynak Sitesinden Otomatik Doğrulandı",
     "verificationBadge": "🟢 Otomatik Doğrulanmış (Resmi Kaynak)",
     "isPopular": false,
-    "isToday": false,
+    "isToday": true,
     "isWeekend": false
   },
   {
@@ -744,6 +682,68 @@
     "isWeekend": false
   },
   {
+    "id": "src-5-26a162df2f",
+    "title": "Farkındalık Seminerleri",
+    "category": "kultur",
+    "categoryName": "Akademik Etkinlik",
+    "categoryIcon": "🎓",
+    "town": "Nevşehir Merkez",
+    "locationName": "Kapadokya Üniversitesi",
+    "coordinates": [
+      38.6285,
+      34.718
+    ],
+    "date": "2026-12-02",
+    "time": "",
+    "price": 0,
+    "isFree": true,
+    "priceLabel": "Ücretsiz",
+    "ticketUrl": null,
+    "organizer": "Kapadokya Üniversitesi (KUN) Kültür Merkezi",
+    "organizerContact": "",
+    "image": "/images/concert.jpg",
+    "description": "",
+    "highlights": [],
+    "sourceName": "Kapadokya Üniversitesi (KUN) Kültür Merkezi",
+    "sourceUrl": "https://kapadokya.edu.tr/etkinlikler/farkindalik-seminerleri",
+    "verificationStatus": "Kaynak Sitesinden Otomatik Doğrulandı",
+    "verificationBadge": "🟢 Otomatik Doğrulanmış (Resmi Kaynak)",
+    "isPopular": false,
+    "isToday": false,
+    "isWeekend": false
+  },
+  {
+    "id": "src-5-ec8a60ccf3",
+    "title": "Gastronomik Turizm ve Türkiye İçin Önemi",
+    "category": "kultur",
+    "categoryName": "Akademik Etkinlik",
+    "categoryIcon": "🎓",
+    "town": "Nevşehir Merkez",
+    "locationName": "Çevrim İçi",
+    "coordinates": [
+      38.6285,
+      34.718
+    ],
+    "date": "2026-12-04",
+    "time": "",
+    "price": 0,
+    "isFree": true,
+    "priceLabel": "Ücretsiz",
+    "ticketUrl": null,
+    "organizer": "Kapadokya Üniversitesi (KUN) Kültür Merkezi",
+    "organizerContact": "",
+    "image": "/images/concert.jpg",
+    "description": "",
+    "highlights": [],
+    "sourceName": "Kapadokya Üniversitesi (KUN) Kültür Merkezi",
+    "sourceUrl": "https://kapadokya.edu.tr/etkinlikler/gastronomik-turizm-ve-turkiye-icin-onemi",
+    "verificationStatus": "Kaynak Sitesinden Otomatik Doğrulandı",
+    "verificationBadge": "🟢 Otomatik Doğrulanmış (Resmi Kaynak)",
+    "isPopular": false,
+    "isToday": false,
+    "isWeekend": false
+  },
+  {
     "id": "src-6-7d877a8d29",
     "title": "NEVÜ Tiyatro Kulübü Tarafından “O.B.E.B” Adlı Tiyatro Oyunu Sahnelenecek",
     "category": "kultur",
@@ -772,37 +772,6 @@
     "verificationBadge": "🟢 Otomatik Doğrulanmış (Resmi Kaynak)",
     "isPopular": false,
     "isToday": false,
-    "isWeekend": false
-  },
-  {
-    "id": "src-6-de1a63ce2d",
-    "title": "\"Yeme Davranışı ve Obezite\" Konulu Seminer",
-    "category": "kultur",
-    "categoryName": "Akademik Etkinlik",
-    "categoryIcon": "🎓",
-    "town": "Nevşehir Merkez",
-    "locationName": "Fen Edebiyat Fakültesi Prof. Dr. Zeynep Korkmaz Konferans Salonu",
-    "coordinates": [
-      38.6285,
-      34.718
-    ],
-    "date": "2026-11-25",
-    "time": "15:00",
-    "price": 0,
-    "isFree": true,
-    "priceLabel": "Ücretsiz",
-    "ticketUrl": null,
-    "organizer": "Nevşehir Hacı Bektaş Veli Üniversitesi (NEVÜ)",
-    "organizerContact": "",
-    "image": "/images/concert.jpg",
-    "description": "",
-    "highlights": [],
-    "sourceName": "Nevşehir Hacı Bektaş Veli Üniversitesi (NEVÜ)",
-    "sourceUrl": "https://www.nevsehir.edu.tr/tr/59706",
-    "verificationStatus": "Kaynak Sitesinden Otomatik Doğrulandı",
-    "verificationBadge": "🟢 Otomatik Doğrulanmış (Resmi Kaynak)",
-    "isPopular": false,
-    "isToday": true,
     "isWeekend": false
   }
 ]
