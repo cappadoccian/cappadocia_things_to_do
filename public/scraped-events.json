@@ -1,36 +1,5 @@
 [
   {
-    "id": "src-5-2224523088",
-    "title": "Alev Alatlı Okumaları - II",
-    "category": "kultur",
-    "categoryName": "Akademik Etkinlik",
-    "categoryIcon": "🎓",
-    "town": "Nevşehir Merkez",
-    "locationName": "Kapadokya Yerleşkesi",
-    "coordinates": [
-      38.6285,
-      34.718
-    ],
-    "date": "2026-11-26",
-    "time": "",
-    "price": 0,
-    "isFree": true,
-    "priceLabel": "Ücretsiz",
-    "ticketUrl": null,
-    "organizer": "Kapadokya Üniversitesi (KUN) Kültür Merkezi",
-    "organizerContact": "",
-    "image": "/images/concert.jpg",
-    "description": "",
-    "highlights": [],
-    "sourceName": "Kapadokya Üniversitesi (KUN) Kültür Merkezi",
-    "sourceUrl": "https://kapadokya.edu.tr/etkinlikler/alev-alatli-okumalari-ii",
-    "verificationStatus": "Kaynak Sitesinden Otomatik Doğrulandı",
-    "verificationBadge": "🟢 Otomatik Doğrulanmış (Resmi Kaynak)",
-    "isPopular": false,
-    "isToday": true,
-    "isWeekend": false
-  },
-  {
     "id": "src-5-d56e1a4b12",
     "title": "Yapay Zekâ ile Fikirden Ürüne",
     "category": "kultur",
@@ -58,7 +27,7 @@
     "verificationStatus": "Kaynak Sitesinden Otomatik Doğrulandı",
     "verificationBadge": "🟢 Otomatik Doğrulanmış (Resmi Kaynak)",
     "isPopular": false,
-    "isToday": false,
+    "isToday": true,
     "isWeekend": false
   },
   {
@@ -89,7 +58,7 @@
     "verificationStatus": "Kaynak Sitesinden Otomatik Doğrulandı",
     "verificationBadge": "🟢 Otomatik Doğrulanmış (Resmi Kaynak)",
     "isPopular": false,
-    "isToday": false,
+    "isToday": true,
     "isWeekend": false
   },
   {
@@ -120,7 +89,7 @@
     "verificationStatus": "Kaynak Sitesinden Otomatik Doğrulandı",
     "verificationBadge": "🟢 Otomatik Doğrulanmış (Resmi Kaynak)",
     "isPopular": false,
-    "isToday": false,
+    "isToday": true,
     "isWeekend": false
   },
   {
@@ -151,7 +120,7 @@
     "verificationStatus": "Kaynak Sitesinden Otomatik Doğrulandı",
     "verificationBadge": "🟢 Otomatik Doğrulanmış (Resmi Kaynak)",
     "isPopular": false,
-    "isToday": false,
+    "isToday": true,
     "isWeekend": false
   },
   {
@@ -182,7 +151,7 @@
     "verificationStatus": "Kaynak Sitesinden Otomatik Doğrulandı",
     "verificationBadge": "🟢 Otomatik Doğrulanmış (Resmi Kaynak)",
     "isPopular": false,
-    "isToday": false,
+    "isToday": true,
     "isWeekend": false
   },
   {
@@ -213,7 +182,7 @@
     "verificationStatus": "Kaynak Sitesinden Otomatik Doğrulandı",
     "verificationBadge": "🟢 Otomatik Doğrulanmış (Resmi Kaynak)",
     "isPopular": false,
-    "isToday": false,
+    "isToday": true,
     "isWeekend": false
   },
   {
@@ -244,7 +213,7 @@
     "verificationStatus": "Kaynak Sitesinden Otomatik Doğrulandı",
     "verificationBadge": "🟢 Otomatik Doğrulanmış (Resmi Kaynak)",
     "isPopular": false,
-    "isToday": false,
+    "isToday": true,
     "isWeekend": false
   },
   {
@@ -275,7 +244,7 @@
     "verificationStatus": "Kaynak Sitesinden Otomatik Doğrulandı",
     "verificationBadge": "🟢 Otomatik Doğrulanmış (Resmi Kaynak)",
     "isPopular": false,
-    "isToday": false,
+    "isToday": true,
     "isWeekend": false
   },
   {
@@ -742,6 +711,37 @@
     "isPopular": false,
     "isToday": false,
     "isWeekend": false
+  },
+  {
+    "id": "src-5-ff7031462e",
+    "title": "Mantı Günü: Mezunlar ve Öğrenciler Aynı Sofrada",
+    "category": "kultur",
+    "categoryName": "Akademik Etkinlik",
+    "categoryIcon": "🎓",
+    "town": "Nevşehir Merkez",
+    "locationName": "Kapadokya Üniversitesi",
+    "coordinates": [
+      38.6285,
+      34.718
+    ],
+    "date": "2026-12-05",
+    "time": "",
+    "price": 0,
+    "isFree": true,
+    "priceLabel": "Ücretsiz",
+    "ticketUrl": null,
+    "organizer": "Kapadokya Üniversitesi (KUN) Kültür Merkezi",
+    "organizerContact": "",
+    "image": "/images/concert.jpg",
+    "description": "",
+    "highlights": [],
+    "sourceName": "Kapadokya Üniversitesi (KUN) Kültür Merkezi",
+    "sourceUrl": "https://kapadokya.edu.tr/etkinlikler/manti-gunu-mezunlar-ve-ogrenciler-ayni-sofrada",
+    "verificationStatus": "Kaynak Sitesinden Otomatik Doğrulandı",
+    "verificationBadge": "🟢 Otomatik Doğrulanmış (Resmi Kaynak)",
+    "isPopular": false,
+    "isToday": false,
+    "isWeekend": true
   },
   {
     "id": "src-6-7d877a8d29",
